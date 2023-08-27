@@ -2,7 +2,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Description 
-A portfolio made using HTML and CSS to allow viewers insights about me and my work. 
+A portfolio displaying a curated collection of projects that reflect my journey as a software engineer.
+
+
 
 ## Links
 
