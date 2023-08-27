@@ -1,0 +1,133 @@
+/* common styles to reset margins and paddings */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set basic font and line height */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header and navigation */
+#nav-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0; 
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+#nav-head a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* about me section */
+#about {
+    margin: 20px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    padding-left: 20px; 
+}
+
+/* projects section */
+
+section {
+    margin: 20px 0;
+}
+
+#work {
+    margin: 20px 0;
+    padding-left: 280px;
+    text-align: start;
+}
+
+.projects-header {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 0 70px; 
+    width: 220px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.projects img {
+    display: flex;
+    width: 280px; 
+    height: 300px;
+    margin: 10px; 
+    object-fit: cover;
+    padding-right: 100px;
+}
+
+/* contact section */
+#contact {
+    margin: 20px 0;
+    padding-left: 275px;
+}
+
+.contact-list {
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.contact-list li {
+    margin: 0 10px; 
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+    padding-left: 180px;
+}
